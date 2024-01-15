@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C3CDEFE2B553816007B5A94 /* Core_Data_CRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CDEFC2B553816007B5A94 /* Core_Data_CRUD.xcdatamodeld */; };
 		8C5211D22B552D9100625D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5211D12B552D9100625D36 /* AppDelegate.swift */; };
 		8C5211D42B552D9100625D36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5211D32B552D9100625D36 /* SceneDelegate.swift */; };
 		8C5211D92B552D9100625D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5211D72B552D9100625D36 /* Main.storyboard */; };
-		8C5211DC2B552D9100625D36 /* Core_Data_CRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C5211DA2B552D9100625D36 /* Core_Data_CRUD.xcdatamodeld */; };
 		8C5211DE2B552D9400625D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5211DD2B552D9400625D36 /* Assets.xcassets */; };
 		8C5211E12B552D9400625D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5211DF2B552D9400625D36 /* LaunchScreen.storyboard */; };
 		8C5211F32B5530D900625D36 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5211F22B5530D900625D36 /* HomeVC.swift */; };
@@ -19,11 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C3CDEFD2B553816007B5A94 /* Core_Data_CRUD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_CRUD.xcdatamodel; sourceTree = "<group>"; };
 		8C5211CE2B552D9100625D36 /* Core Data CRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data CRUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5211D12B552D9100625D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C5211D32B552D9100625D36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8C5211D82B552D9100625D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C5211DB2B552D9100625D36 /* Core_Data_CRUD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_CRUD.xcdatamodel; sourceTree = "<group>"; };
 		8C5211DD2B552D9400625D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C5211E02B552D9400625D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C5211E22B552D9400625D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				8C5211DD2B552D9400625D36 /* Assets.xcassets */,
-				8C5211DA2B552D9100625D36 /* Core_Data_CRUD.xcdatamodeld */,
+				8C3CDEFC2B553816007B5A94 /* Core_Data_CRUD.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -231,7 +231,7 @@
 				8C5211D22B552D9100625D36 /* AppDelegate.swift in Sources */,
 				8C5211F32B5530D900625D36 /* HomeVC.swift in Sources */,
 				8C5211F62B5530FE00625D36 /* ItemTableViewCell.swift in Sources */,
-				8C5211DC2B552D9100625D36 /* Core_Data_CRUD.xcdatamodeld in Sources */,
+				8C3CDEFE2B553816007B5A94 /* Core_Data_CRUD.xcdatamodeld in Sources */,
 				8C5211D42B552D9100625D36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,12 +452,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8C5211DA2B552D9100625D36 /* Core_Data_CRUD.xcdatamodeld */ = {
+		8C3CDEFC2B553816007B5A94 /* Core_Data_CRUD.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8C5211DB2B552D9100625D36 /* Core_Data_CRUD.xcdatamodel */,
+				8C3CDEFD2B553816007B5A94 /* Core_Data_CRUD.xcdatamodel */,
 			);
-			currentVersion = 8C5211DB2B552D9100625D36 /* Core_Data_CRUD.xcdatamodel */;
+			currentVersion = 8C3CDEFD2B553816007B5A94 /* Core_Data_CRUD.xcdatamodel */;
 			path = Core_Data_CRUD.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
