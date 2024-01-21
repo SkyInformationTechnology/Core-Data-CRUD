@@ -43,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C3CDEFF2B55412F007B5A94 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8C5211F12B55303700625D36 /* Controller */,
+				8C5211F02B55302E00625D36 /* Model */,
+				8C5211EF2B55302400625D36 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		8C5211C52B552D9100625D36 = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +117,7 @@
 		8C5211EC2B552FA300625D36 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				8C5211F12B55303700625D36 /* Controller */,
-				8C5211F02B55302E00625D36 /* Model */,
-				8C5211EF2B55302400625D36 /* View */,
+				8C3CDEFF2B55412F007B5A94 /* Home */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
